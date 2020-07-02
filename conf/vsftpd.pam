@@ -1,0 +1,4 @@
+#%PAM-1.0
+
+auth       sufficient /lib64/security/pam_userdb.so   db=/www/server/panel/plugin/bt_FTP/conf/virtualuser
+account    sufficient /lib64/security/pam_userdb.so   db=/www/server/panel/plugin/bt_FTP/conf/virtualuser
